@@ -32,7 +32,7 @@ import java.util.*;
                 
 
                 }else if(added){
-                    //if it does not matches and added is true that means the future cookies time will 
+                    //if it does not match with date and added is true that means the future cookies time will 
                     //no longer be within the same date range
                     break;
                 }
@@ -54,12 +54,13 @@ import java.util.*;
          
     }finally{
         if(br != null){
-            try{
+            try{  
                 br.close();
             }catch(Exception e){
 
             }
         }
+      
     }
 
 
